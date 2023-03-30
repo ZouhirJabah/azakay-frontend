@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Glide js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.theme.css">
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>AZAKAY</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <br><br>
+    <!--  Nav -->
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="index.html" class="logo">
+          <h1>AZAKAY</h1>
+        </a>
+        <ul class="nav-list d-flex">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="shoes.html" class="nav-link">Shoes</a>
+          </li>
+          <li class="nav-item">
+            <a href="hoodies.html" class="nav-link">Hoodies</a>
+          </li>
+          <li class="nav-item">
+            <a href="accessories.html" class="nav-link">Accessories</a>
+          </li>
+        </ul>
+
+        <div class="icons d-flex">
+          <div class="icon">
+            <i class='bx bx-search'></i>
+          </div>
+          <a href="cart.html" class="icon">
+            <i class='bx bx-shopping-bag'></i>
+          </a>
+          <div class="dropdown-menu">
+            <a class="icon">
+              <i class='bx bx-user'></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </header>
+
+  <!-- Cart Items -->
+  <div class="container cart">
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Total</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/acc1.png" alt="" />
+            <div>
+              <p>Nike U.S. Paralympic Team</p>
+              <span>Price: $32.00</span> <br />
+              <ul class="icons">
+                <a href="#">
+                  <li><i class='bx bx-x'></i></li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>$32.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/hood1.png" alt="" />
+            <div>
+              <p>Dreamy Bubble Hood Grey Heather</p>
+              <span>Price: $93.95</span> <br />
+              <ul class="icons">
+                <a href="#">
+                  <li><i class='bx bx-x'></i></li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>$93.95</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/shoes1.png" alt="" />
+            <div>
+              <p>Air Jordan 6 Retro</p>
+              <span>Price: $200.00</span> <br />
+              <ul class="icons">
+                <a href="#">
+                  <li><i class='bx bx-x'></i></li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>$200.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/acc3.png" alt="" />
+            <div>
+              <p>Men's Lacoste.12.12</p>
+              <span>Price: $95.00</span> <br />
+              <ul class="icons">
+                <a href="#">
+                  <li><i class='bx bx-x'></i></li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>$95.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/hood5.png" alt="" />
+            <div>
+              <p>Running Crew (Navy)</p>
+              <span>Price: $87.00</span> <br />
+              <ul class="icons">
+                <a href="#">
+                  <li><i class='bx bx-x'></i></li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>$87.00</td>
+      </tr>
+    </table>
+    <div class="total-price">
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td>$507.95</td>
+        </tr>
+        <tr>
+          <td>Delivery</td>
+          <td>$50</td>
+        </tr>
+        <tr>
+          <td>TOTAL</td>
+          <td>$557.95</td>
+        </tr>
+      </table>
+      <a href="#" class="checkout btn">Proceed To Checkout</a>
+    </div>
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="row">
+      <div class="col d-flex">
+        <h4>Informations</h4>
+        <a href="">TERMS OF SERVICE</a>
+        <a href="">PRIVACY POLICY</a>
+        <a href="">REFUND POLICY</a>
+      </div>
+
+      <div class="col d-flex">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="#">Shoes</a>
+        <a href="#">Hoodies</a>
+        <a href="#">Accessoires</a>
+      </div>
+
+      <div class="col d-flex">
+        <span><i class='bx bxl-visa' style="font-size:50px;"></i></span>
+        <span><i class='bx bxl-mastercard' style="font-size:50px;"></i></span>
+        <span><i class='bx bxl-paypal' style="font-size:50px;"></i></span>
+      </div>
+
+    </div>
+    <br><br><br><br>
+    <!-- <div class="col d-flex">
+      <p> Copyright © 2023 AZAKAY | Powered by
+        <a href="https://boxicons.com/?query=master" title="zouhir jabah" target="_blank">ZOUHIR JABAH</a>
+      </p>
+    </div> -->
+  </footer>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+<script src="./js/slider.js"></script>
+<script src="./js/index.js"></script>
+
+</html>
